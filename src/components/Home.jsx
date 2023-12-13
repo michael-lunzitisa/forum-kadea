@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import UserContext from "../context/userContext.jsx";
-import data from "../models/services/DataService.js";
+import data from "../models/services/DataServices.jsx";
 import Post from "./Post.jsx";
 
 export default function Home() {

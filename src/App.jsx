@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Login from "./components/Login.jsx";
 import Home from "./components/Home.jsx";
-import UserContext from "./context/userContext.js";
+import UserContext from "./context/userContext.jsx";
 
 function App() {
     const [pseudo, setPseudo] = useState(null);
